@@ -1,0 +1,137 @@
+/* REVIEWS */
+
+.reviews {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.review-wrapper-two {
+  display: none;
+}
+
+.review-wrapper-three {
+  display: none;
+}
+
+.review-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
+.review-wrapper {
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  padding: 32px 0;
+}
+.review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.review-img {
+  margin-bottom: 24px;
+}
+.review-wrap-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+}
+.review-text {
+  max-width: 263px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
+}
+
+.review-wrapper-two {
+  display: none;
+}
+
+.review-wrapper-three {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .review-wrapper-two {
+    display: block;
+  }
+
+  .reviews-container {
+    padding: 0 32px;
+  }
+
+  .reviews {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .reviews-list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .review-wrapper {
+    min-width: 344px;
+  }
+
+  .review-title {
+    font-size: 48px;
+    line-height: 0.91;
+    margin-bottom: 40px;
+  }
+
+  .review-wrap-title {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .review-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 272px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .review-wrapper-three {
+    display: block;
+  }
+
+  .reviews {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .reviews-container {
+    padding: 0 65px;
+    max-width: 1280px;
+  }
+  .review-wrapper {
+    min-width: 370px;
+  }
+  .reviews-list {
+    gap: 20px;
+  }
+
+  .review-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 293px;
+  }
+}
+
+/* REVIEWS */

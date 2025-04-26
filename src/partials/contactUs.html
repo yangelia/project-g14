@@ -1,0 +1,64 @@
+<section class="contact-us">
+  <div class="container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="form-wrapper">
+      <p class="contact-us-text">
+        Please use the form below to contact us. Enter your name, email, phone,
+        and message and we'll get back to you shortly.
+      </p>
+      <form class="contact-us-form">
+        <div class="form-field">
+          <label for="user-name" class="form-label"></label>
+          <input
+            type="text"
+            class="form-input"
+            name="user-name"
+            required
+            id="user-name"
+            placeholder="Name"
+          />
+        </div>
+        <div class="form-field">
+          <label for="user-email" class="form-label"></label>
+          <input
+            type="email"
+            class="form-input"
+            name="user-email"
+            required
+            id="user-email"
+            placeholder="Email"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+          />
+        </div>
+        <div class="form-field">
+          <label for="user-phone" class="form-label"></label>
+          <input
+            type="tel"
+            class="form-input"
+            name="user-phone"
+            required
+            id="user-phone"
+            placeholder="+380"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+          />
+        </div>
+        <div class="form-field-comment">
+          <label for="user-comment" class="form-label"></label>
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            class="form-textarea"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+        <button type="submit" class="form-btn">Send</button>
+      </form>
+    </div>
+    <picture>
+      <source srcset="" media="" />
+      <source srcset="" media="" />
+      <source srcset="" media="" />
+      <img src="/img/contactUs/Rectangle 15.png" alt="watch" />
+    </picture>
+  </div>
+</section>

@@ -9,8 +9,12 @@
 @import url('./base.css');
 @import url('./container.css');
 @import url('./animations.css');
+@import url('./fonts.css');
 
 /* Sections style */
 @import url('./header.css');
+@import url('./hero.css');
 @import url('./catalog.css');
+@import url('./reviews.css');
+@import url('./contactUs.css');
 @import url('./footer.css');
