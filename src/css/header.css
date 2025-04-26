@@ -63,7 +63,6 @@ ul {
     flex-direction: column;
     gap: 24px;
   }
-
   .mobile-menu.is-open .mm-ul {
     display: flex;
     align-items: center;
