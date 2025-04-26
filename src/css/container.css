@@ -4,11 +4,19 @@
   box-sizing: border-box;
 }
 /* Styles for Mobile devices */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
 }
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
@@ -16,6 +24,7 @@
     padding: 0 32px;
   }
 }
+
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .container {
