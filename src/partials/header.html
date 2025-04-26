@@ -16,10 +16,10 @@
           <a class="mobile-menu-a" href="#">Sale</a>
         </li>
         <li class="mobile-menu-li"> 
-          <a class="mobile-menu-a" href="#">Reviews</a>
+          <a id="reviews-section" class="mobile-menu-a" href="#">Reviews</a>
         </li>
         <li class="mobile-menu-li"> 
-          <a class="mobile-menu-a" href="#">Contact Us</a>
+          <a id="contact-section" class="mobile-menu-a" href="#">Contact Us</a>
         </li>
       </ul>
       <div class="address-header">
@@ -47,16 +47,16 @@
           </li>
         </ul>
       </div>
-      <button class="burger-btm" type="button" >
+      <button class="burger-btm" type="button" data-menu-open>
         <svg class="burger-icon" width="34" height="16">
           <use href="/header.img/icon.svg#icon-Icon"></use>
          </svg>
       </button>
     </nav>
   </div>
-  <div class="mobile-menu" is-open>
+  <div class="mobile-menu" data-menu>
     <div class="container mobile-menu-container">
-      <button class="mobile-menu-close"  type="button" >
+      <button class="mobile-menu-close"  type="button" data-menu-close>
         <svg class="icon-x" width="34" height="34">
           <use href="/header.img/icon.svg#icon-x"></use>
         </svg>
@@ -76,10 +76,10 @@
             <a class="mobile-menu-a mm-a" href="#">Sale</a>
           </li>
           <li class="mobile-menu-li mm-li"> 
-            <a class="mobile-menu-a mm-a" href="#">Reviews</a>
+            <a id="reviews-section" class="mobile-menu-a mm-a" href="#">Reviews</a>
           </li>
           <li class="mobile-menu-li mm-li"> 
-            <a class="mobile-menu-a mm-a" href="#">Contact Us</a>
+            <a id="contact-section" class="mobile-menu-a mm-a" href="#">Contact Us</a>
           </li>
         </ul>
         <div class="address-header add-header">

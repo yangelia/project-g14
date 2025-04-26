@@ -77,7 +77,7 @@ ul {
   }
 
   .mobile-menu {
-    /*z-index: 999;*/
+    z-index: 999;
     position: fixed; 
     top: 0;
     left: 0;
@@ -91,8 +91,7 @@ ul {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .mobile-menu.is-open {
@@ -170,6 +169,7 @@ ul {
     border-radius: 50%;
     opacity: 0;
     transition: opacity 0.3s;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .mm-a:hover::after,
@@ -317,6 +317,7 @@ ul {
     border-radius: 50%;
     opacity: 0;
     transition: opacity 0.3s;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .mm-a:hover::after,
@@ -421,6 +422,7 @@ ul {
   .mobile-menu-a:hover::after,
   .mobile-menu-a:focus::after {
     opacity: 1;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .mobile-menu-ul {
@@ -466,6 +468,7 @@ ul {
   .icon:focus,
   .icon:hover {
     fill: #3350e9;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .mobile-menu-ic:focus,
