@@ -13,7 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" crossorigin href="/project-g14/assets/index-Br09F-Cd.css">
+    <link rel="stylesheet" crossorigin href="/project-g14/assets/index-BYmOCPrZ.css">
   </head>
   <body>
     <header class="header-navi">
@@ -304,7 +304,7 @@
       <section class="catalog" id="catalog-section">
   <div class="container">
     <h2 class="catalog-title">Catalog</h2>
-    <ul class="catalog-list">
+    <ul class="catalog-list" id="catalog-list">
       <li class="product-item">
         <div class="product-item-imgwrap">
           <picture>
@@ -324,7 +324,6 @@
               src="/project-g14/assets/image-0-kLhsEwkN.webp"
               alt="Garmin Fenix 7X Pro Sapphire Solar"
               width="304"
-              loading="eager"
             />
           </picture>
         </div>
@@ -459,9 +458,7 @@
         <p class="product-price">€395</p>
       </li>
     </ul>
-    <button class="catalog-button show-more-btn" type="button">
-      Show more
-    </button>
+    <a href="#catalog-list" class="catalog-button show-more-btn"> Show more </a>
   </div>
 </section>
 
@@ -797,20 +794,20 @@
             <a href="/">Home</a>
           </li>
           <li class="footer-nav-item">
-            <a href="#">About Us</a>
-          </li>
-          <li class="footer-nav-item">
-            <a href="#">Catalog</a>
-          </li>
-          <li class="footer-nav-item">
-            <a href="#">Sale</a>
-          </li>
-          <li class="footer-nav-item">
-            <a href="#">Reviews</a>
-          </li>
-          <li class="footer-nav-item">
-            <a href="#">Contact Us</a>
-          </li>
+            <a href="#about-section">About Us</a>
+        </li>
+        <li class="footer-nav-item">
+            <a href="#catalog-section">Catalog</a>
+        </li>
+        <li class="footer-nav-item">
+            <a href="#sale-section">Sale</a>
+        </li>
+        <li class="footer-nav-item">
+            <a href="#reviews-section">Reviews</a>
+        </li>
+        <li class="footer-nav-item">
+            <a href="#contact-section">Contact Us</a>
+        </li>
         </ul>
         <div class="footer-address-case">
           <address class="footer-nav-addres">
@@ -836,8 +833,6 @@
 </footer>
 
 
-    <script src="/main.js"></script>
     <script src="/all-js/menu.js"></script>
-    <script src="/all-js/prodcatalog.js"></script>
   </body>
 </html>
