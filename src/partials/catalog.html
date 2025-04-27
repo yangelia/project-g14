@@ -1,7 +1,7 @@
 <section class="catalog" id="catalog-section">
   <div class="container">
     <h2 class="catalog-title">Catalog</h2>
-    <ul class="catalog-list">
+    <ul class="catalog-list" id="catalog-list">
       <li class="product-item">
         <div class="product-item-imgwrap">
           <picture>
@@ -209,7 +209,11 @@
         <p class="product-price">€395</p>
       </li>
     </ul>
-    <button class="catalog-button show-more-btn" type="button">
+    <button
+      class="catalog-button"
+      type="button"
+      onclick="this.previousElementSibling.classList.add('show-all'); this.style.display='none'"
+    >
       Show more
     </button>
   </div>

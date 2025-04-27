@@ -1,17 +1,12 @@
-/*--------Mobile---------*/
-
 .advertisement {
 }
-
 .advertisement-image {
   display: flex;
   flex-direction: column;
-
+  padding: 60px 28px;
   border: 1px solid #000;
   border-radius: 30px;
-  width: 335px;
-  height: 363px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
   background-image: linear-gradient(
       rgba(12, 12, 12, 0.8),
       rgba(12, 12, 12, 0.8)
@@ -21,7 +16,6 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-
 @media screen and (min-resolution: 2x) {
   .advertisement-image {
     background-image: linear-gradient(
@@ -31,24 +25,18 @@
       url(../img/adv/image-adv-mob@2x.webp);
   }
 }
-
 .advertisement-title {
   font-weight: 600;
   font-size: 32px;
-
   /* line-height: 32px; */
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  padding-top: 60px;
-  padding-left: 28px;
-  padding-right: 28px;
+  margin-bottom: 28px;
 }
-
 .your-story {
   color: rgba(251, 251, 251, 0.5);
 }
-
 .advertisement-button {
   display: block;
   border: 1px solid rgba(251, 251, 251, 0.15);
@@ -62,20 +50,13 @@
   text-align: center;
   color: #fbfbfb;
   background: transparent;
-  margin-top: 28px;
-  margin-left: 28px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .advertisement-button:hover,
 .advertisement-button:focus {
   color: #0c0c0c;
   background: #fbfbfb;
 }
-/*--------Mobile---------*/
-
-/*--------Tablet---------*/
-
 @media screen and (min-width: 768px) {
   .advertisement-image {
     min-width: 704px;
@@ -85,8 +66,8 @@
         rgba(12, 12, 12, 0.8)
       ),
       url(../img/adv/image-adv-tab.webp);
+    padding: 80px 64px;
   }
-
   @media screen and (min-resolution: 2x) {
     .advertisement-image {
       background-image: linear-gradient(
@@ -96,40 +77,28 @@
         url(../img/adv/image-adv-tab@2x.webp);
     }
   }
-
   .advertisement {
   }
-
   .advertisement-title {
     font-size: 48px;
     line-height: 0.91667;
-    padding-top: 80px;
-    padding-left: 64px;
-    padding-right: 64px;
+    margin-bottom: 32px;
   }
-
   .advertisement-button {
-    margin-left: 64px;
-    margin-top: 32px;
   }
 }
-/*--------Tablet---------*/
-
-/*--------Desktop---------*/
-
 @media screen and (min-width: 1280px) {
   .advertisement-image {
     min-width: 1150px;
     height: 298px;
     flex-direction: row;
-    gap: 140px;
+    justify-content: space-between;
     background-image: linear-gradient(
         rgba(12, 12, 12, 0.8),
         rgba(12, 12, 12, 0.8)
       ),
       url(../img/adv/image-adv-desk.webp);
   }
-
   @media screen and (min-resolution: 2x) {
     .advertisement-image {
       background-image: linear-gradient(
@@ -143,14 +112,7 @@
   }
   .advertisement-title {
     width: 720px;
-    padding-top: 83px;
-    padding-left: 80px;
-    padding-right: 0;
   }
-
   .advertisement-button {
-    margin-left: 0;
-    margin-top: 80px;
   }
 }
-/*--------Desktop---------*/
