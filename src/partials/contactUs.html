@@ -1,0 +1,98 @@
+<section class="contact-us" id="contactus-section">
+  <div class="container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="tablet-wrapper">
+      <div>
+        <div class="form-wrapper">
+          <div class="form-tablet-container">
+            <p class="contact-us-text">
+              Please use the form below to contact us. Enter your name, email,
+              phone, and message and we'll get back to you shortly.
+            </p>
+            <form class="contact-us-form">
+              <div class="form-field">
+                <label for="user-name" class="form-label visually-hidden"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  class="form-input"
+                  name="user-name"
+                  required
+                  id="user-name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-field">
+                <label for="user-email" class="form-label visually-hidden"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-input"
+                  name="user-email"
+                  required
+                  id="user-email"
+                  placeholder="Email"
+                  pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                />
+              </div>
+              <div class="form-field">
+                <label for="user-phone" class="form-label visually-hidden"
+                  >Phone</label
+                >
+                <input
+                  type="tel"
+                  class="form-input"
+                  name="user-phone"
+                  required
+                  id="user-phone"
+                  placeholder="+380"
+                  pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                />
+              </div>
+              <div class="form-field-comment">
+                <label for="user-comment" class="form-label visually-hidden"
+                  >Description</label
+                >
+                <textarea
+                  name="user-comment"
+                  id="user-comment"
+                  class="form-textarea"
+                  placeholder="Comment"
+                ></textarea>
+              </div>
+              <button type="submit" class="form-btn">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div>
+        <picture>
+          <source
+            srcset="
+              /img/contactUs/desktop-pic-1x.webp 1x,
+              /img/contactUs/desktop-pic-2x.webp 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              /img/contactUs/tablet-pic-1x.webp 1x,
+              /img/contactUs/tablet-pic-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/contactUs/mobile-pic-1x.webp 1x,
+              /img/contactUs/mobile-pic-2x.webp 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img src="/img/contactUs/mobile-pic-1x.webp" alt="watch" width="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
